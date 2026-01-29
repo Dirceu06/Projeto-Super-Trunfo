@@ -92,7 +92,7 @@ void interface(Cartas *cartas, int size_cartas, int quant_cartas_baralho)
     Color cor, cor_destaque_telainicial = COR_DESTAQUE_TELAINICIAL;
     Image icon = LoadImage("assets/img/icons/windowicon.png");
     
-    //InitWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Projeto Super-Trunfo"); // iniciando a janela
+    InitWindow(800, 600, "Projeto Super-Trunfo"); // iniciando a janela
     SetWindowIcon(icon);                                             // definindo icone da janela
     SetTargetFPS(FPS);                                               // definindo a taxa de quadros por segundo
 
@@ -119,7 +119,7 @@ void interface(Cartas *cartas, int size_cartas, int quant_cartas_baralho)
     SetWindowMinSize(800, 600);
     SetWindowMaxSize(1920, 1080);
     //mudar de tamanho com f11
-    ToggleFullscreen();
+    // ToggleFullscreen();
 
 
     while (!WindowShouldClose()){
