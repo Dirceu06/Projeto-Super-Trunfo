@@ -7,3 +7,7 @@
 /assets/data/*.dat
 
 # Ignore executable file
+# Ignore specific binary files in assets/data
+/assets/data/arqbin.dat
+/assets/data/historico.dat
+/assets/data/*.dat
